@@ -1,0 +1,15 @@
+.card{
+    margin-bottom: 15px;
+}
+
+.header{
+    display: flex;
+}
+
+.date{
+    float: right;
+}
+
+.changepage{
+    
+}
