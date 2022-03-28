@@ -16,18 +16,39 @@
 <body>
     <header>
         <div class="row">
-
-            <nav class="navbar navbar-light bg-light fixed-top">
-                <div class="container-fluid Topbar">
-                    <a class="navbar-brand col-6" href="#">
+            <div class="col-6">
+                <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
                         <img src="https://w7.pngwing.com/pngs/300/178/png-transparent-computer-icons-icon-design-instagram-logo-miscellaneous-area-smile.png"
                             alt="Instagram Logo" width="30" height="26" class="d-inline-block align-text-top">
                         Instagram
                     </a>
-                    <div class="NewPost col-6, style=" float-right">
-
-                        <button type="button" class="btn btn-success">Create a new Post</button>
-                        <div class="dropdown">
+                </div>        
+                       <!-- Button trigger modal -->
+            <div class="col-6, d-flex">          
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a New Post
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                             <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Create your Post</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                    </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Upload your picture</button>
+        </div>
+      </div>
+    </div>
+                    </div>
+                    <div class="dropdown">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-secondary dropdown-toggle"
                                     data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
@@ -52,15 +73,18 @@
                                             Out<output></output></button></li>
                                 </ul>
                             </div>
-                        </div>
                     </div>
+            </div>        
 
 
 
-                </div>
-            </nav>
+            </div>
+                </nav>
+            
         </div>
-        <div class="container-header">
+        <div class="row">
+            <div class="col-12">
+                <div class="container-fluid">
             <nav class="navbar navbar-light">
                 <a href="index.html" class="active" role="button">
                     <form class="container-fluid justify-content-center">
@@ -82,7 +106,9 @@
                         </svg>
                     </button>
                 </a>
-        </div>
+                </div>
+            </div>
+        </div>    
     </header>
 
     <div class="container-pictures">
