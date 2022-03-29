@@ -1,3 +1,16 @@
+Hola 4Geeks teacher!!
+
+He creado este Instagram Post con Bootstrap!!
+
+Utilizando los diferentes herramientas que tenemos en Bootstrap, así como nav-bar con propiedad fixed-top para fijar la primera barra en la parte superior de la pantalla y que ésta se mantenga siempre visible en la parte superior aunque hagamos scroll down. Esto me ha obligado a inlcuir un padding top en el body entero para hacer que la siguiente nav-bar (la que cambia de pestaña dentro de la web) fuera visible de lo contrario esta barra no se veía y se quedaba detrás de la primera.
+
+EL segundo nav-bar y utilizando "anchors" me traslada a index2 donde muestra otra disposición del primer index, manteniendo las dos primeras barras de la misma manera.
+
+Se han utilizado botones dropdown y modal para crear los diferentes menus y funcionalidades que requiere el ejercicio.
+
+
+
+
 # ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
